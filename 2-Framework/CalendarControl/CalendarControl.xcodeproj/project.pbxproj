@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A42A764285301C600654223 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42A763285301C600654223 /* Day.swift */; };
+		5A42A766285301D300654223 /* MonthMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42A765285301D300654223 /* MonthMetadata.swift */; };
+		5A42A76B2853021100654223 /* CalendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42A7672853021100654223 /* CalendarDateCollectionViewCell.swift */; };
+		5A42A76C2853021100654223 /* CalendarPickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42A7682853021100654223 /* CalendarPickerHeaderView.swift */; };
+		5A42A76D2853021100654223 /* CalendarPickerFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42A7692853021100654223 /* CalendarPickerFooterView.swift */; };
+		5A42A76E2853021100654223 /* CalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A42A76A2853021100654223 /* CalendarPickerViewController.swift */; };
 		5AEF3C142852F87E0083D2AB /* CalendarControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEF3C132852F87E0083D2AB /* CalendarControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AEF3C202852F8CF0083D2AB /* CalendarPickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C1C2852F8CF0083D2AB /* CalendarPickerHeaderView.swift */; };
-		5AEF3C212852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C1D2852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift */; };
-		5AEF3C222852F8CF0083D2AB /* CalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C1E2852F8CF0083D2AB /* CalendarPickerViewController.swift */; };
-		5AEF3C232852F8CF0083D2AB /* CalendarPickerFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C1F2852F8CF0083D2AB /* CalendarPickerFooterView.swift */; };
-		5AEF3C262852F8E10083D2AB /* MonthMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C242852F8E10083D2AB /* MonthMetadata.swift */; };
-		5AEF3C272852F8E10083D2AB /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C252852F8E10083D2AB /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A42A763285301C600654223 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		5A42A765285301D300654223 /* MonthMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthMetadata.swift; sourceTree = "<group>"; };
+		5A42A7672853021100654223 /* CalendarDateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A42A7682853021100654223 /* CalendarPickerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPickerHeaderView.swift; sourceTree = "<group>"; };
+		5A42A7692853021100654223 /* CalendarPickerFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPickerFooterView.swift; sourceTree = "<group>"; };
+		5A42A76A2853021100654223 /* CalendarPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPickerViewController.swift; sourceTree = "<group>"; };
 		5AEF3C102852F87E0083D2AB /* CalendarControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalendarControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEF3C132852F87E0083D2AB /* CalendarControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarControl.h; sourceTree = "<group>"; };
-		5AEF3C1C2852F8CF0083D2AB /* CalendarPickerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarPickerHeaderView.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/CalendarPicker/CalendarPickerHeaderView.swift"; sourceTree = "<group>"; };
-		5AEF3C1D2852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarDateCollectionViewCell.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/CalendarPicker/CalendarDateCollectionViewCell.swift"; sourceTree = "<group>"; };
-		5AEF3C1E2852F8CF0083D2AB /* CalendarPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarPickerViewController.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/CalendarPicker/CalendarPickerViewController.swift"; sourceTree = "<group>"; };
-		5AEF3C1F2852F8CF0083D2AB /* CalendarPickerFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarPickerFooterView.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/CalendarPicker/CalendarPickerFooterView.swift"; sourceTree = "<group>"; };
-		5AEF3C242852F8E10083D2AB /* MonthMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonthMetadata.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/Models/MonthMetadata.swift"; sourceTree = "<group>"; };
-		5AEF3C252852F8E10083D2AB /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/Models/Day.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 		5AEF3C1A2852F8B10083D2AB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5AEF3C252852F8E10083D2AB /* Day.swift */,
-				5AEF3C242852F8E10083D2AB /* MonthMetadata.swift */,
+				5A42A765285301D300654223 /* MonthMetadata.swift */,
+				5A42A763285301C600654223 /* Day.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -76,10 +76,10 @@
 		5AEF3C1B2852F8BD0083D2AB /* CalendarPicker */ = {
 			isa = PBXGroup;
 			children = (
-				5AEF3C1D2852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift */,
-				5AEF3C1F2852F8CF0083D2AB /* CalendarPickerFooterView.swift */,
-				5AEF3C1C2852F8CF0083D2AB /* CalendarPickerHeaderView.swift */,
-				5AEF3C1E2852F8CF0083D2AB /* CalendarPickerViewController.swift */,
+				5A42A7672853021100654223 /* CalendarDateCollectionViewCell.swift */,
+				5A42A7692853021100654223 /* CalendarPickerFooterView.swift */,
+				5A42A7682853021100654223 /* CalendarPickerHeaderView.swift */,
+				5A42A76A2853021100654223 /* CalendarPickerViewController.swift */,
 			);
 			path = CalendarPicker;
 			sourceTree = "<group>";
@@ -164,12 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEF3C212852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift in Sources */,
-				5AEF3C262852F8E10083D2AB /* MonthMetadata.swift in Sources */,
-				5AEF3C272852F8E10083D2AB /* Day.swift in Sources */,
-				5AEF3C222852F8CF0083D2AB /* CalendarPickerViewController.swift in Sources */,
-				5AEF3C202852F8CF0083D2AB /* CalendarPickerHeaderView.swift in Sources */,
-				5AEF3C232852F8CF0083D2AB /* CalendarPickerFooterView.swift in Sources */,
+				5A42A766285301D300654223 /* MonthMetadata.swift in Sources */,
+				5A42A76C2853021100654223 /* CalendarPickerHeaderView.swift in Sources */,
+				5A42A76B2853021100654223 /* CalendarDateCollectionViewCell.swift in Sources */,
+				5A42A76D2853021100654223 /* CalendarPickerFooterView.swift in Sources */,
+				5A42A76E2853021100654223 /* CalendarPickerViewController.swift in Sources */,
+				5A42A764285301C600654223 /* Day.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
