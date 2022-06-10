@@ -8,11 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5AEF3C142852F87E0083D2AB /* CalendarControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEF3C132852F87E0083D2AB /* CalendarControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEF3C202852F8CF0083D2AB /* CalendarPickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C1C2852F8CF0083D2AB /* CalendarPickerHeaderView.swift */; };
+		5AEF3C212852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C1D2852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift */; };
+		5AEF3C222852F8CF0083D2AB /* CalendarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C1E2852F8CF0083D2AB /* CalendarPickerViewController.swift */; };
+		5AEF3C232852F8CF0083D2AB /* CalendarPickerFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C1F2852F8CF0083D2AB /* CalendarPickerFooterView.swift */; };
+		5AEF3C262852F8E10083D2AB /* MonthMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C242852F8E10083D2AB /* MonthMetadata.swift */; };
+		5AEF3C272852F8E10083D2AB /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF3C252852F8E10083D2AB /* Day.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5AEF3C102852F87E0083D2AB /* CalendarControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalendarControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEF3C132852F87E0083D2AB /* CalendarControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarControl.h; sourceTree = "<group>"; };
+		5AEF3C1C2852F8CF0083D2AB /* CalendarPickerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarPickerHeaderView.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/CalendarPicker/CalendarPickerHeaderView.swift"; sourceTree = "<group>"; };
+		5AEF3C1D2852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarDateCollectionViewCell.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/CalendarPicker/CalendarDateCollectionViewCell.swift"; sourceTree = "<group>"; };
+		5AEF3C1E2852F8CF0083D2AB /* CalendarPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarPickerViewController.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/CalendarPicker/CalendarPickerViewController.swift"; sourceTree = "<group>"; };
+		5AEF3C1F2852F8CF0083D2AB /* CalendarPickerFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarPickerFooterView.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/CalendarPicker/CalendarPickerFooterView.swift"; sourceTree = "<group>"; };
+		5AEF3C242852F8E10083D2AB /* MonthMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonthMetadata.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/Models/MonthMetadata.swift"; sourceTree = "<group>"; };
+		5AEF3C252852F8E10083D2AB /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day.swift; path = "../../../../1-RWCalendarPickerUI/RWCalendarPicker/Models/Day.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +57,31 @@
 		5AEF3C122852F87E0083D2AB /* CalendarControl */ = {
 			isa = PBXGroup;
 			children = (
+				5AEF3C1B2852F8BD0083D2AB /* CalendarPicker */,
+				5AEF3C1A2852F8B10083D2AB /* Models */,
 				5AEF3C132852F87E0083D2AB /* CalendarControl.h */,
 			);
 			path = CalendarControl;
+			sourceTree = "<group>";
+		};
+		5AEF3C1A2852F8B10083D2AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5AEF3C252852F8E10083D2AB /* Day.swift */,
+				5AEF3C242852F8E10083D2AB /* MonthMetadata.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5AEF3C1B2852F8BD0083D2AB /* CalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5AEF3C1D2852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift */,
+				5AEF3C1F2852F8CF0083D2AB /* CalendarPickerFooterView.swift */,
+				5AEF3C1C2852F8CF0083D2AB /* CalendarPickerHeaderView.swift */,
+				5AEF3C1E2852F8CF0083D2AB /* CalendarPickerViewController.swift */,
+			);
+			path = CalendarPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +127,7 @@
 				TargetAttributes = {
 					5AEF3C0F2852F87E0083D2AB = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -129,6 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEF3C212852F8CF0083D2AB /* CalendarDateCollectionViewCell.swift in Sources */,
+				5AEF3C262852F8E10083D2AB /* MonthMetadata.swift in Sources */,
+				5AEF3C272852F8E10083D2AB /* Day.swift in Sources */,
+				5AEF3C222852F8CF0083D2AB /* CalendarPickerViewController.swift in Sources */,
+				5AEF3C202852F8CF0083D2AB /* CalendarPickerHeaderView.swift in Sources */,
+				5AEF3C232852F8CF0083D2AB /* CalendarPickerFooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +299,7 @@
 		5AEF3C182852F87E0083D2AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -277,6 +319,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +328,7 @@
 		5AEF3C192852F87E0083D2AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
