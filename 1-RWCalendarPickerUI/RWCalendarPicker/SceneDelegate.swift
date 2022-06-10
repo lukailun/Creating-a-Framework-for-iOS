@@ -33,16 +33,16 @@
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-  var window: UIWindow?
+    var window: UIWindow?
 
-  func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-    guard let windowScene = (scene as? UIWindowScene) else { return }
+    func scene(_ scene: UIScene, willConnectTo _: UISceneSession, options _: UIScene.ConnectionOptions) {
+        guard let windowScene = (scene as? UIWindowScene) else { return }
 
-    #if targetEnvironment(macCatalyst)
-    windowScene.titlebar?.titleVisibility = .hidden
-    #endif
-    window = UIWindow(windowScene: windowScene)
-    window?.rootViewController = UINavigationController(rootViewController: ItemListViewController())
-    window?.makeKeyAndVisible()
-  }
+        #if targetEnvironment(macCatalyst)
+            windowScene.titlebar?.titleVisibility = .hidden
+        #endif
+        window = UIWindow(windowScene: windowScene)
+        window?.rootViewController = UINavigationController(rootViewController: ItemListViewController())
+        window?.makeKeyAndVisible()
+    }
 }
