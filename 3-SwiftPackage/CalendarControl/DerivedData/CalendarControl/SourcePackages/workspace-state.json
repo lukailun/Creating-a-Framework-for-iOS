@@ -1,0 +1,1 @@
+{"object": {"artifacts": [{"packageRef": {"identity": "calendarcontrol", "kind": "root", "name": "CalendarControl", "path": "/Users/critz/Downloads/CreateFrameworkForiOS/final/3-SwiftPackage/CalendarControl"}, "source": {"path": "./Sources/CalendarControl.xcframework", "type": "local"}, "targetName": "CalendarControl"}], "dependencies": []}, "version": 4}

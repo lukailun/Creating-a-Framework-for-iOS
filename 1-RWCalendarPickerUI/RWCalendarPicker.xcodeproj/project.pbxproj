@@ -11,8 +11,8 @@
 		185CB1FC23C78CE6009F7571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB1FB23C78CE6009F7571 /* AppDelegate.swift */; };
 		185CB1FE23C78CE6009F7571 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB1FD23C78CE6009F7571 /* SceneDelegate.swift */; };
 		185CB20523C78CE8009F7571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185CB20423C78CE8009F7571 /* Assets.xcassets */; };
-		5A42A77D28530AE200654223 /* CalendarControl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42A77C28530AE200654223 /* CalendarControl.xcframework */; };
-		5A42A77E28530AE200654223 /* CalendarControl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42A77C28530AE200654223 /* CalendarControl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2EB6BE6D255E93FC00F4E481 /* CalendarControl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD61B0125449D7300203484 /* CalendarControl.xcframework */; };
+		2EB6BE6E255E93FC00F4E481 /* CalendarControl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD61B0125449D7300203484 /* CalendarControl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B0071983248EC3EB007B667E /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0071982248EC3EB007B667E /* ItemDetailViewController.swift */; };
 		B0071986248EC3F1007B667E /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0071984248EC3F1007B667E /* ItemListViewController.swift */; };
 		B0071987248EC3F1007B667E /* ChecklistItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0071985248EC3F1007B667E /* ChecklistItemTableViewCell.swift */; };
@@ -21,13 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5A42A77A285304E900654223 /* Embed Frameworks */ = {
+		2EB6BE6F255E93FC00F4E481 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A42A77E28530AE200654223 /* CalendarControl.xcframework in Embed Frameworks */,
+				2EB6BE6E255E93FC00F4E481 /* CalendarControl.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,7 +41,7 @@
 		185CB1FD23C78CE6009F7571 /* SceneDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; tabWidth = 2; };
 		185CB20423C78CE8009F7571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185CB20923C78CE8009F7571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A42A77C28530AE200654223 /* CalendarControl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CalendarControl.xcframework; path = "../2-Framework/CalendarControl/build/CalendarControl.xcframework"; sourceTree = "<group>"; };
+		7CD61B0125449D7300203484 /* CalendarControl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CalendarControl.xcframework; path = "../2-Framework/CalendarControl/build/CalendarControl.xcframework"; sourceTree = "<group>"; };
 		B0071982248EC3EB007B667E /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 		B0071984248EC3F1007B667E /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		B0071985248EC3F1007B667E /* ChecklistItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItemTableViewCell.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A42A77D28530AE200654223 /* CalendarControl.xcframework in Frameworks */,
+				2EB6BE6D255E93FC00F4E481 /* CalendarControl.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 			children = (
 				185CB1FA23C78CE6009F7571 /* RWCalendarPicker */,
 				185CB1F923C78CE6009F7571 /* Products */,
-				5A42A776285304E900654223 /* Frameworks */,
+				7C3CECA72534DF59003CCFBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +93,8 @@
 				B043265424562C6800D5239A /* RWCalendarPicker.entitlements */,
 				185CB1FB23C78CE6009F7571 /* AppDelegate.swift */,
 				185CB1FD23C78CE6009F7571 /* SceneDelegate.swift */,
-				B04326622456398000D5239A /* ItemListViewController */,
 				B0071982248EC3EB007B667E /* ItemDetailViewController.swift */,
+				B04326622456398000D5239A /* ItemListViewController */,
 				1289631E24915F6F0071400E /* Models */,
 				185CB20423C78CE8009F7571 /* Assets.xcassets */,
 				180DC61423C78D9800486B1A /* LaunchScreen.storyboard */,
@@ -104,10 +104,10 @@
 			path = RWCalendarPicker;
 			sourceTree = "<group>";
 		};
-		5A42A776285304E900654223 /* Frameworks */ = {
+		7C3CECA72534DF59003CCFBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A42A77C28530AE200654223 /* CalendarControl.xcframework */,
+				7CD61B0125449D7300203484 /* CalendarControl.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,13 +132,15 @@
 				185CB1F423C78CE6009F7571 /* Sources */,
 				185CB1F523C78CE6009F7571 /* Frameworks */,
 				185CB1F623C78CE6009F7571 /* Resources */,
-				5A42A77A285304E900654223 /* Embed Frameworks */,
+				2EB6BE6F255E93FC00F4E481 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RWCalendarPicker;
+			packageProductDependencies = (
+			);
 			productName = MyRWTutorial;
 			productReference = 185CB1F823C78CE6009F7571 /* RWCalendarPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -167,6 +169,8 @@
 				Base,
 			);
 			mainGroup = 185CB1EF23C78CE6009F7571;
+			packageReferences = (
+			);
 			productRefGroup = 185CB1F923C78CE6009F7571 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
