@@ -32,18 +32,17 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-
 import PackageDescription
 
 let package = Package(
-  name: "CalendarControl",
-  platforms: [
-//1
-  ],
-  products: [
-//2
-  ],
-  targets: [
-//3
-  ]
+    name: "CalendarControl",
+    platforms: [
+        // 1
+    ],
+    products: [
+        // 2
+    ],
+    targets: [
+        // 3
+    ]
 )
