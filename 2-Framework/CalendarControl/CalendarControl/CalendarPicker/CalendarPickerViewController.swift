@@ -32,7 +32,7 @@
 
 import UIKit
 
-class CalendarPickerViewController: UIViewController {
+public class CalendarPickerViewController: UIViewController {
     // MARK: Views
 
     private lazy var dimmedBackgroundView: UIView = {
@@ -108,7 +108,7 @@ class CalendarPickerViewController: UIViewController {
 
     // MARK: Initializers
 
-    init(baseDate: Date, selectedDateChanged: @escaping ((Date) -> Void)) {
+    public init(baseDate: Date, selectedDateChanged: @escaping ((Date) -> Void)) {
         selectedDate = baseDate
         self.baseDate = baseDate
         self.selectedDateChanged = selectedDateChanged
@@ -121,13 +121,13 @@ class CalendarPickerViewController: UIViewController {
     }
 
     @available(*, unavailable)
-    required init?(coder _: NSCoder) {
+    public required init?(coder _: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
     // MARK: View Lifecycle
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         collectionView.backgroundColor = .systemGroupedBackground
 
@@ -184,7 +184,7 @@ class CalendarPickerViewController: UIViewController {
         headerView.baseDate = baseDate
     }
 
-    override func viewWillTransition(
+    override public func viewWillTransition(
         to size: CGSize,
         with coordinator: UIViewControllerTransitionCoordinator
     ) {
@@ -320,14 +320,14 @@ private extension CalendarPickerViewController {
 // MARK: - UICollectionViewDataSource
 
 extension CalendarPickerViewController: UICollectionViewDataSource {
-    func collectionView(
+    public func collectionView(
         _: UICollectionView,
         numberOfItemsInSection _: Int
     ) -> Int {
         days.count
     }
 
-    func collectionView(
+    public func collectionView(
         _ collectionView: UICollectionView,
         cellForItemAt indexPath: IndexPath
     ) -> UICollectionViewCell {
@@ -347,7 +347,7 @@ extension CalendarPickerViewController: UICollectionViewDataSource {
 // MARK: - UICollectionViewDelegateFlowLayout
 
 extension CalendarPickerViewController: UICollectionViewDelegateFlowLayout {
-    func collectionView(
+    public func collectionView(
         _: UICollectionView,
         didSelectItemAt indexPath: IndexPath
     ) {
@@ -356,7 +356,7 @@ extension CalendarPickerViewController: UICollectionViewDelegateFlowLayout {
         dismiss(animated: true, completion: nil)
     }
 
-    func collectionView(
+    public func collectionView(
         _ collectionView: UICollectionView,
         layout _: UICollectionViewLayout,
         sizeForItemAt _: IndexPath
